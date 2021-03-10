@@ -9,7 +9,7 @@ fecha_de_creacion DATE,
 contenido VARCHAR(255),
 descripcion VARCHAR(255),
 PRIMARY KEY (id) --Aquí defino la llave primaria de esta tabla, que en este caso será la columna "id"
-posts(# );
+);
 --3. Inserto 3 post, 2 para el usuario "Pamela" y uno para "Carlos"
 INSERT INTO post (id, nombre_de_usuario, fecha_de_creacion, contenido, descripcion) VALUES (1, 'Pamela', 2020-11-10, 'Primer post', 'Este es el primer post');
 INSERT INTO post (id, nombre_de_usuario, fecha_de_creacion, contenido, descripcion) VALUES (2, 'Pamela', 2020-11-10, 'Segundo post', 'Este es el segundo post');
