@@ -35,7 +35,7 @@ id VARCHAR(255),
 fecha_de_creacion DATE,
 hora_de_creacion VARCHAR(255),
 contenido VARCHAR(255),
-FOREIGN KEY (contenido) REFERENCES post(id) --Aquí enlazo (relaciono) la tabla "contenido" con la tabla "post", definiendo la columna "id" como la llave foránea
+FOREIGN KEY (contenido) REFERENCES post(id) --Aquí enlazo (relaciono) el atributo "contenido" con la tabla "post", definiendo la columna "id" como la llave foránea
 );
 --10. Crear 2 comentarios para el post de "Pamela" y 4 para "Carlos"
 INSERT INTO comentarios (id, fecha_de_creacion, hora_de_creacion, contenido) VALUES (1, 2020-11-11, '18:34', 'Primer comentario para Pamela');
